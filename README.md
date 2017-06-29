@@ -65,3 +65,44 @@ All important interactions can be done within the GUI. There are also some other
     
 # ChronoCity Usage 
 
+The application is built to be as intuitive as possible, hopefully you can get along with it right away. If not, this section will guide you through some main functionalities.
+
+## Overview  
+
+The application can be divided in three main parts: the viewport, sidebar and overview-map. The viewport is where the actual data is shown and where you should use your mouse or arrow-keys to navigate around. The sidebar is where you can find all settings and information. The sidebar is hidden by default, you can show it by clicking the menu-icon on the top-left. Below the menu-icon is the map-toggle. By clicking this, the overview-map is shown on which you can see the current orientation of the camera.  
+
+## Sidebar  
+
+The side bar is split up in two sections; the upper part with blue icons contains the general settings and information. The lower part indicated with orange icons contains all available modules in which you can use different tools and analyses. We'll go over the various options very briefly below;
+
+## Navigation  
+
+The navigation panel shows information about the camera position in the coordinates of the loaded dataset. Under 'Controls' you can use different types of navigation-modes (left three icons). For the different effects, select one and use the buttons on the mouse to et acquinted with the different options. The four icons on the right gives you some quick options to view the entire dataset in the viewport, or flies to an orthogonal view.  
+
+## Display settings 
+
+Within the display panel you'll have control over the visual appearance of the points in the viewport. The three options speak for themself, but it has to be noted the 'Point Budget' has great influence on the computers' performance. If you experience any troubles while loading points lower this amount and you'll be fine. The colouring section gives you control over the colors of the points. There are a few options available to color them along their information, or just geometries.  
+
+## Data
+
+Within the data panel you can currently toggle between two different datasets, AHN2 and AHN3. If the dataset is classified according to the ASPRS LAS format, you can also choose which classes you'd like to see or not. This has effect on both datasets.  
+
+## Measurement tools  
+
+This panel contains some basic measurement tools like distance, angles, volumes and profiles. On clicking an icon, you should hover your pointer over the viewport to specify the characteristics. The results-section shows you information on the measurement and you can also delete them one-by-one again. There's also the option to delete all available measurements by clicking the red 'x'.  
+
+## Change Detection  
+
+The change detection panel guides you through the analyses. You can also check the already processed areas by enabling 'Show changes'. You can also specify a region of interest yourself. After clicking 'Run analysis', the algorithm will proces the data in the background. You can just go on with exploring and will be automatically redirected to the region of interest after completion. When the changes are shown, you can also specify which data you'd like to see. Best combinations are New Points + t1 and Removed Points + t2.  
+
+## Download and Export  
+
+In this experimental module you can save an image of the current viewport as .png. This is experimental and is not yet supported by all browsers. Work in progress! You can also download the original data tiles, but needs some more work in this stage. If you really want to download the tiles, go to the overview-map and press the small 'D'-button.  
+
+## Share your view   
+
+In this module you can generate a shareable link which you can send to your friends. The process is straightforward, you just need to press the button and copy the link.  
+
+## Search and Go  
+
+This experimental module can be used for quickly navigating through your data. Suggestions are not yet implemented, so keep it simple like clear postal codes. While streetnames can be used in various cities, it is not yet known to which one you'll be sent!
