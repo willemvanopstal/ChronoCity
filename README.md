@@ -56,6 +56,9 @@ All important interactions can be done within the GUI. There are also some other
     checkLayers(bool,bool,bool,bool)   # sets the visibility for all layers (AHN2, AHN3, AHN23, AHN32)
     toggleAHN()                        # toggles the view between AHN2 and AHN3
     saveAsImage()                      # saves the current view as a .png image (prompt)
+    viewer.setPointSizing('Adaptive')   # sets dynamic point sizing; points on foregrond appear bigger
+    viewer.setPointSizing('Attenuated') # sets dynamic point sizing; point on foregrond appear smaller
+    viewer.setPointSizing('Fixed')      # sets static point sizing; default
     
 # ChronoCity Usage 
 
