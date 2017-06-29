@@ -9,7 +9,8 @@ A demo video can be found at: https://www.youtube.com/watch?v=lqZBHaU7G08
 
 # ChronoCity Installation
 
-__Installation__
+__Installation__  
+
 1. Install a (local) webserver. E.g. Apache Tomcat
 2. Install all Python dependencies (see next section)
 3. Download this entire repositery as .zip
@@ -23,7 +24,8 @@ __Installation__
 11. Get a LAStools license-file (.txt) and save it under <code>chronocity-engine/Tools/LAS_tools</code>
 12. The ChronoCity-viewer is ready to view. You can access it through your webserver and browse to <code>domain:port/OPCM/</code>
 
-__Python Dependencies__
+__Python Dependencies__  
+
 For the server-side running correctly, you should also make sure you have the following dependencies installed on your Python interpreter;
 - fiona
 - laspy
@@ -49,7 +51,8 @@ __Setup__
 
 3. The viewer runs on port _8080_ by default and relies on the default value for the server-side. If you have changed the default port, you should edit <code>OPCM/chronocity-viewer/build/potree/potree.js</code> and search for _localhost:_. Replace the entries with your custom ports.
 
-__Console controls__
+__Console controls__  
+
 All important interactions can be done within the GUI. There are also some other usefull command for more control. You can use these in your browser's webconsole;
 
     getActivePC();                     # returns a list of the visible pointclouds [AHN2, AHN3, AHN23, AHN32]
