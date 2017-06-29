@@ -4,6 +4,9 @@ _(29-6-2017)_
 
 Before executing a change detection, make sure the service is running by browsing to www.chronocity.net:12839/test  
 
+## Demo video  
+A demo video can be found at: https://www.youtube.com/watch?v=lqZBHaU7G08
+
 # ChronoCity Installation
 
 __Installation__
@@ -54,3 +57,5 @@ All important interactions can be done within the GUI. There are also some other
     toggleAHN()                        # toggles the view between AHN2 and AHN3
     saveAsImage()                      # saves the current view as a .png image (prompt)
     
+# ChronoCity Usage 
+
