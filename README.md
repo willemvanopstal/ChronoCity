@@ -16,7 +16,7 @@ __Installation__
 4. Extract the zip into your webserver-webapps directory. Make sure the paths look like: <code>webapps/OPCM/chronocity-engine/..</code> and <code>webapps/OPCM/chronocity-viewer/..</code>
 5. Download the AHN datasets in potree-structure here: <code>download</code>
 6. Extract the two folders <code>AHN2</code> and <code>AHN3</code> and put them both under <code>chronocity-viewer/pointclouds/</code>
-7. Download the pre-processed difference-layers here: <code>download</download>
+7. Download the pre-processed difference-layers here: <code>download</code>
 8. Extract <code>AHN2-AHN3</code>, <code>AHN3-AHN2</code> and <code>Clips</code>
 9. Put both <code>AHN2-AHN3</code>, <code>AHN3-AHN2</code> under <code>chronocity-viewer/pointclouds/</code>. (next to AHN2 and AHN3)
 10. Put the contents in <code>Clips</code> under <code>chronocity-engine/Clips</code>. It should now contain 4 files.
