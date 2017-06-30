@@ -15,7 +15,7 @@ __Installation__
 2. Install all Python dependencies (see next section)
 3. Download this entire repositery as .zip
 4. Extract the zip into your webserver-webapps directory. Make sure the paths look like: <code>webapps/OPCM/chronocity-engine/..</code> and <code>webapps/OPCM/chronocity-viewer/..</code>
-5. Download the AHN datasets in potree-structure here: <code>download</code>
+5. Download the AHN datasets in potree-structure here: https://wvanopstal.stackstorage.com/s/n4FTmxSEaJ6avrp
 6. Extract the two folders <code>AHN2</code> and <code>AHN3</code> and put them both under <code>chronocity-viewer/pointclouds/</code>
 7. Download the pre-processed difference-layers here: https://wvanopstal.stackstorage.com/s/qEvkj1lgwUksYEK
 8. Extract <code>AHN2-AHN3</code>, <code>AHN3-AHN2</code> and <code>Clips</code>
